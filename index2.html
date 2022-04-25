@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="James Goff">
+    <meta name="description" content="Best Mobile Detailing Website Ever"
+    <meta name="keywords" content="best mobile detailing, in arizona, east valley detailing, ">
+    <title>Arizona Boss Detailers</title>
+    <link rel="stylesheet" href="styles2.css"/>
+</head>
+
+<body>
+    <h1>Arizona Boss Detailers</h1>
+    <h2>Submit Your Information & Receive a Free Quote</h2>
+    <div class="container">
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" name="name" placeholder="Your Name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Phone Number</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="pnumber" name="pnumber" placeholder="Your Phone Number..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="vehicle">Vehicle Model</label>
+            </div>
+            <div class="col-75">
+              <select id="typeofVehicle" name="typeofVehicle">
+                <option value="SUV">SUV</option>
+                <option value="Truck">Truck</option>
+                <option value="Sedan">Sedan</option>
+                <option value="Coupe">Coupe</option>
+                <option value="Van">Van</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="other">Additional Details</label>
+            </div>
+            <div class="col-75">
+              <textarea id="other" name="other" placeholder="Write Something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+</body>
+</html>
